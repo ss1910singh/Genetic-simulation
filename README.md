@@ -1,7 +1,3 @@
-Here’s a professional README file for your project, *"Modeling Evolutionary Processes in Complex Biological Systems with Machine Learning."* It covers how the models work, performance measures, and the integrated models.
-
----
-
 # Modeling Evolutionary Processes in Complex Biological Systems with Machine Learning
 
 ## Project Overview
