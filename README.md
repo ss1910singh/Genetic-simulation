@@ -1,5 +1,5 @@
 **Modeling Evolutionary Processes in Complex Biological Systems with Machine Learning**. 
-```markdown
+
 # Modeling Evolutionary Processes in Complex Biological Systems with Machine Learning
 
 ## Project Overview
