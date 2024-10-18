@@ -1,5 +1,3 @@
-**Modeling Evolutionary Processes in Complex Biological Systems with Machine Learning**. 
-
 # Modeling Evolutionary Processes in Complex Biological Systems with Machine Learning
 
 ## Project Overview
@@ -29,7 +27,7 @@ This project is structured to efficiently load data, process it, train machine l
      - **Neural Network (NN)**: A deep learning model that processes high-dimensional genetic data through multiple layers, capturing complex relationships and patterns.
 
 3. **Evaluation and Metrics**:
-   - **Evaluation.py**: This module calculates various metrics to evaluate model performance:
+   - **Evaluation.ipynb**: This module calculates various metrics to evaluate model performance:
      - **Accuracy**: Measures the percentage of correctly classified samples, providing a basic understanding of model performance.
      - **Precision, Recall, F1 Score**: These metrics offer deeper insights into the model’s performance, particularly in imbalanced datasets where some classes may dominate.
      - **ROC-AUC**: Assesses how well the model distinguishes between evolutionary categories (e.g., beneficial vs. non-beneficial mutations) by evaluating the trade-off between sensitivity and specificity.
@@ -66,13 +64,13 @@ pip install -r requirements.txt
 ## Usage
 
 1. **Load the Dataset**:
-   The dataset is processed using `data_loader.py` to ensure it is properly prepared for the models. This involves cleaning, normalization, and splitting into training, validation, and testing datasets.
+   The dataset is processed using `data_loader.ipynb` to ensure it is properly prepared for the models. This involves cleaning, normalization, and splitting into training, validation, and testing datasets.
 
 2. **Train Models**:
-   Use `model.py` to train the models on the dataset. The script handles hyperparameter optimization automatically using GridSearchCV, returning the trained models along with their optimal parameters.
+   Use `model.ipynb` to train the models on the dataset. The script handles hyperparameter optimization automatically using GridSearchCV, returning the trained models along with their optimal parameters.
 
 3. **Evaluate Models**:
-   Use `evaluation.py` to calculate all key performance metrics and evaluate how well the ensemble model is performing. This will generate a report summarizing the accuracy, precision, recall, and other metrics.
+   Use `evaluation.ipynb` to calculate all key performance metrics and evaluate how well the ensemble model is performing. This will generate a report summarizing the accuracy, precision, recall, and other metrics.
 
 4. **Visualize Results**:
    Use `visualization.py` to generate plots and visualizations of the model’s predictions and performance metrics. This step helps interpret results and assess model effectiveness visually.
