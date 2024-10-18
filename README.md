@@ -64,7 +64,7 @@ pip install -r requirements.txt
 ## Usage
 
 1. **Load the Dataset**:
-   Place your dataset in the appropriate directory and specify the path in `config.py`. The dataset is processed using `data_loader.py` to ensure it is properly prepared for the models.
+   The dataset is processed using `data_loader.py` to ensure it is properly prepared for the models.
 
 2. **Train Models**:
    Use `model.py` to train the models on the dataset. The script automatically handles hyperparameter optimization and returns the trained models.
