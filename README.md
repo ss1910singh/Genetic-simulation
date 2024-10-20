@@ -1,4 +1,21 @@
-# Modeling Evolutionary Processes in Complex Biological Systems with Machine Learning
+# Modeling Evolutionary Processes in Biological Systems with Machine Learning
+---
+
+## Part 1:
+
+# Project Overview
+
+This section details the first phase of the project that was developed using AG (Artificial Genetics). The earlier work included building and simulating genetic evolution using algorithms and models designed for evolutionary biology. Key focus areas were:
+
+- **Initial System Architecture**: Design and implementation of the core simulation mechanics for evolving genetic traits.
+- **Simulation Engine**: A rule-based engine that guided the evolution process based on pre-determined parameters like mutation rates, environmental pressures, and fitness criteria.
+- **Entity Representation**: Representation of organisms as data entities, each containing genetic information.
+- **Data Visualization**: The initial development of data visualization for tracking evolutionary changes over time.
+- **Challenges**: Identified challenges in scaling the simulation and improving predictive capabilities, leading to the evolution of the project into Part 2.
+
+---
+
+## Part 2: 
 
 ## Project Overview
 
