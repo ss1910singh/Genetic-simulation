@@ -27,8 +27,8 @@ def initialize_population(size):
     ) for _ in range(size)]
 
 def run_simulation():
-    population = initialize_population(100)
-    for generation in range(1, 101):  # 100 generations
+    population = initialize_population(10)
+    for generation in range(1, 51):  # 100 generations
         print(f"Generation {generation}")
         population = genetic_algorithm(population, 1)  # Run one generation at a time
         log_population_data(population, generation)  # Log data for each generation

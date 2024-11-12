@@ -43,4 +43,4 @@ def evolve_population(population):
 def genetic_algorithm(population, generations):
     for _ in range(generations):
         population = evolve_population(population)
-    return population
+    return population 

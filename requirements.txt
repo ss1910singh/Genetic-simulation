@@ -2,7 +2,6 @@ ipykernel
 dash
 pandas
 plotly
-pandas
 scikit-learn
 matplotlib
 seaborn
